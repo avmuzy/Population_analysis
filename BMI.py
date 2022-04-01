@@ -13,4 +13,12 @@ elif bmi < 18.5:
     print('Mild Thinness')
 elif bmi < 25:
     print('Normal')
+elif bmi < 30:
+    print('Overweight')
+elif bmi < 35:
+    print('Obese Class I')
+elif bmi < 40:
+    print('Obese Class II')
+else:
+    print('Obese Class III')
 
