@@ -6,3 +6,6 @@ x = pd.read_csv('/home/avms/data_base.csv')
 df = pd.DataFrame(x)
 print(x)
 print(df[['Kilograms', 'Centimeters']])
+print(type(x))
+bmi = df['BMI'] = df['Kilograms'] / df['Centimeters']
+print(bmi)
