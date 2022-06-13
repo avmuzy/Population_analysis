@@ -1,0 +1,100 @@
+GivenName,Surname,Gender,Age,Kilograms,Centimeters,BloodType,StateFull
+Matheus,Melo,male,59,113.1,169,A+,São Paulo
+Eduardo,Azevedo,male,52,65.1,171,A+,São Paulo
+Emily,Cardoso,female,49,78.2,153,B+,Pará
+Luiz,Pinto,male,59,81.7,176,B+,Rio de Janeiro
+Nicole,Silva,female,79,54.3,168,A+,São Paulo
+Samuel,Correia,male,79,73.9,169,O+,Rio de Janeiro
+Emilly,Carvalho,female,41,100.1,173,A-,Rio Grande do Sul
+Leonor,Gomes,female,40,101.8,167,B+,São Paulo
+Lavinia,Araujo,female,40,97.5,175,B+,São Paulo
+Beatrice,Ferreira,female,57,80.1,170,O-,Rio Grande do Sul
+Lucas,Cavalcanti,male,38,109.0,180,A+,Minas Gerais
+Lucas,Ferreira,male,21,85.7,167,A+,Distrito Federal
+Isabella,Silva,female,57,73.8,169,A+,Paraná
+Kauê,Gomes,male,33,89.6,183,B+,São Paulo
+Letícia,Goncalves,female,68,65.3,168,B+,Bahia
+Eduardo,Pereira,male,20,54.0,168,O+,São Paulo
+Arthur,Silva,male,51,98.4,185,O+,São Paulo
+Emily,Cunha,female,35,71.1,171,A+,Minas Gerais
+Kai,Cavalcanti,male,54,92.9,172,AB+,Mato Grosso do Sul
+Nicolash,Gomes,male,50,104.9,175,O+,Ceará
+Gabrielle,Castro,female,79,71.3,156,O-,Goiás
+Marina,Santos,female,81,63.7,159,O+,São Paulo
+Daniel,Costa,male,57,88.0,182,B+,Minas Gerais
+Miguel,Oliveira,male,47,70.6,183,O-,Mato Grosso
+Rodrigo,Fernandes,male,36,79.0,186,O+,Pernambuco
+Melissa,Costa,female,55,68.2,153,B+,São Paulo
+Joao,Rodrigues,male,32,109.2,176,A+,Goiás
+Beatriz,Santos,female,54,58.2,170,O+,Goiás
+Tomás,Cavalcanti,male,76,88.1,180,B+,Goiás
+Clara,Almeida,female,20,46.7,163,O+,São Paulo
+Melissa,Lima,female,31,100.9,159,O+,São Paulo
+Tomás,Ribeiro,male,34,66.1,189,O+,Distrito Federal
+Julia,Ribeiro,female,33,65.8,161,A+,Rio de Janeiro
+Isabelle,Gomes,female,41,72.2,170,AB+,Pernambuco
+Kai,Santos,male,79,60.8,162,A+,São Paulo
+Lara,Azevedo,female,67,77.7,166,O+,São Paulo
+Samuel,Almeida,male,47,102.7,167,O+,Rio de Janeiro
+Sarah,Fernandes,female,57,70.2,172,O+,São Paulo
+Mariana,Dias,female,59,70.5,157,AB+,São Paulo
+Felipe,Cardoso,male,72,69.9,177,AB+,São Paulo
+Júlio,Pereira,male,81,93.9,168,O+,Distrito Federal
+Igor,Melo,male,21,94.1,173,B-,Rio de Janeiro
+Leonardo,Rocha,male,63,78.4,177,A+,São Paulo
+Kai,Goncalves,male,29,68.9,169,A+,São Paulo
+Yasmin,Pinto,female,73,61.5,169,A+,São Paulo
+Victor,Dias,male,79,81.3,178,A+,Alagoas
+Miguel,Cavalcanti,male,47,90.6,173,B+,Rio de Janeiro
+Diego,Ferreira,male,36,63.7,173,O+,Rio Grande do Sul
+Miguel,Ribeiro,male,58,93.4,179,B+,Rio de Janeiro
+Luiza,Sousa,female,75,85.7,171,A+,Rio de Janeiro
+Matheus,Melo,male,71,74.6,173,O+,Minas Gerais
+Isabelle,Souza,female,71,89.0,167,B+,Bahia
+Thaís,Almeida,female,44,79.2,165,O+,São Paulo
+Vitória,Sousa,female,85,52.1,156,B+,São Paulo
+Carlos,Santos,male,79,65.8,167,O+,São Paulo
+Evelyn,Goncalves,female,37,56.4,170,O-,Amazonas
+Gustavo,Correia,male,74,84.3,165,A+,Rio Grande do Sul
+Sophia,Silva,female,57,100.5,160,A+,São Paulo
+Eduarda,Barbosa,female,63,85.7,172,A-,Goiás
+Carolina,Silva,female,56,58.4,172,O+,Minas Gerais
+Igor,Goncalves,male,57,84.4,184,A+,Sergipe
+Gabrielle,Ferreira,female,41,102.9,162,A+,Goiás
+Alex,Cavalcanti,male,73,94.2,166,AB-,São Paulo
+Amanda,Souza,female,85,53.1,151,B+,Paraná
+Tomás,Silva,male,57,88.9,187,A+,Pernambuco
+Carolina,Pereira,female,56,51.7,167,O+,Santa Catarina
+Samuel,Pinto,male,21,69.7,178,A+,Minas Gerais
+Luiza,Almeida,female,80,72.0,157,B+,Paraíba
+Vitória,Martins,female,53,102.0,168,B+,São Paulo
+Bruna,Pinto,female,29,100.7,155,A+,São Paulo
+Erick,Araujo,male,71,78.8,164,O+,Pará
+Vitor,Cardoso,male,58,90.1,175,A+,São Paulo
+Letícia,Goncalves,female,71,55.0,166,A+,São Paulo
+Diego,Melo,male,68,90.9,176,O+,Minas Gerais
+Anna,Correia,female,75,68.2,152,O+,São Paulo
+Evelyn,Cardoso,female,22,49.9,162,B+,São Paulo
+Felipe,Goncalves,male,65,84.7,184,AB+,São Paulo
+João,Ribeiro,male,82,89.1,172,A+,Rio Grande do Sul
+Bruna,Silva,female,65,101.6,154,A+,São Paulo
+Mariana,Dias,female,72,51.7,153,O+,Minas Gerais
+Rodrigo,Pereira,male,73,60.3,179,O+,São Paulo
+Maria,Rocha,female,32,81.2,155,A+,Pernambuco
+Isabela,Carvalho,female,57,53.3,159,O+,Minas Gerais
+Vitoria,Melo,female,40,86.8,155,O+,Paraná
+Kaua,Cavalcanti,male,44,83.9,167,A+,Distrito Federal
+Ágatha,Sousa,female,80,54.6,151,O+,Distrito Federal
+Danilo,Azevedo,male,67,93.1,170,A+,São Paulo
+Antônio,Martins,male,74,76.0,178,O+,Minas Gerais
+Arthur,Cunha,male,30,103.7,169,B+,São Paulo
+Ryan,Dias,male,85,85.5,164,B+,Distrito Federal
+Renan,Almeida,male,22,70.6,171,B+,São Paulo
+André,Rodrigues,male,20,58.8,181,O+,São Paulo
+Emily,Silva,female,43,96.8,160,O+,Minas Gerais
+Clara,Santos,female,47,76.0,167,A+,Minas Gerais
+Carla,Martins,female,63,54.4,153,AB-,Minas Gerais
+Anna,Dias,female,27,100.3,155,B+,São Paulo
+Vitoria,Fernandes,female,61,98.3,158,A+,São Paulo
+Larissa,Pinto,female,57,51.8,167,A+,São Paulo
+Kauã,Cardoso,male,29,87.4,175,B+,Mato Grosso do Sul
