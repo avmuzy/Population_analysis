@@ -15,3 +15,5 @@ ax.grid()
 
 fig.savefig("test1.png")
 plt.show()
+plt.stem(age, kilo)
+plt.show()
