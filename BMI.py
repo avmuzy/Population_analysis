@@ -3,7 +3,7 @@
 height = float(input('Enter your height in meters: '))
 weight = float(input('Enter your weight in kilograms: '))
 bmi = weight / height**2
-print('Tour BMI is: %4f' % bmi)
+print('Your BMI is: %4f' % bmi)
 
 if bmi < 16:
     print('Severe Thinness')
