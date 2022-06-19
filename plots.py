@@ -7,10 +7,10 @@ age = df["Age"]
 kilo = df['Kilograms']
 bmix = df['BMI'] = df['Kilograms'] / ((df['Centimeters']/100)**2)
 fig, ax = plt.subplots()
-ax.plot(age, kilo)
+ax.plot(age, bmix)
 
-ax.set(xlabel='Age', ylabel='Kilograms',
-       title='Age X kilograms')
+ax.set(xlabel='Age', ylabel='BMI',
+       title='Age X BMI')
 ax.grid()
 
 fig.savefig("test1.png")
