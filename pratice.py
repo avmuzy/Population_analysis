@@ -5,3 +5,4 @@ df = pd.DataFrame(x)
 age = df["Age"]
 kilo = df['Kilograms']
 bmix = df['BMI'] = df['Kilograms'] / ((df['Centimeters']/100)**2)
+print(x.head())
