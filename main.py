@@ -22,3 +22,4 @@ ax.grid()
 
 fig.savefig("test.png")
 plt.show()
+print(x.head())
