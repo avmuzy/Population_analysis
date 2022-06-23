@@ -6,3 +6,6 @@ age = df["Age"]
 kilo = df['Kilograms']
 bmix = df['BMI'] = df['Kilograms'] / ((df['Centimeters']/100)**2)
 print(x.head())
+maxBmi = df['BMI'].max()
+minBmi = df['BMI'].min()
+print(maxBmi, minBmi)
