@@ -1,4 +1,5 @@
 import pandas as pd
+import csv
 import matplotlib.pyplot as plt
 x = pd.read_csv('new_data_base.csv')
 df = pd.DataFrame(x)
