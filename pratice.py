@@ -13,4 +13,9 @@ maxBmi = df['BMI'].max()
 minBmi = df['BMI'].min()
 print(maxBmi, minBmi)
 
+def top_six(input_list):
+    input_list = sorted(df['BMI'], reverse=True)
+    return input_list[:6]
 
+
+print(top_six(1))
