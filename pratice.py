@@ -28,3 +28,6 @@ def lower_six(input_list):
 
 
 print(lower_six(1))
+
+y = (top_six(1))
+x = (lower_six(1))
