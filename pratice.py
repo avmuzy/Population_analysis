@@ -31,3 +31,9 @@ print(lower_six(1))
 
 y = (top_six(1))
 x = (lower_six(1))
+# plot the data
+fig = plt.figure()
+ax = fig.add_subplot(1, 1, 1)
+ax.plot(y, y, color='tab:blue')
+ax.plot(x, x, color='tab:orange')
+plt.show()
