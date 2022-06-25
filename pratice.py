@@ -16,7 +16,7 @@ print(maxBmi, minBmi)
 
 def top_six(input_list):
     input_list = sorted(df['BMI'], reverse=True)
-    return input_list[:6]
+    return input_list[:50]
 
 
 print(top_six(1))
@@ -24,7 +24,7 @@ print(top_six(1))
 
 def lower_six(input_list):
     input_list = sorted(df['BMI'], reverse=False)
-    return input_list[:6]
+    return input_list[:50]
 
 
 print(lower_six(1))
