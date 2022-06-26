@@ -13,17 +13,17 @@ weight = float(input('Enter your weight in kilograms: '))
 bmi = weight / height**2
 print('Your BMI is: %4f' % bmi)
 
-if 16 > bmi > 16.9:
+if bmi < 16.9:
     print('Severe Thinness')
-elif 17 > bmi > 18.5:
+elif 17 > bmi < 18.5:
     print('Moderate Thinness')
-elif 18.5 > bmi > 24.9:
+elif 18.5 > bmi < 24.9:
     print('Mild Thinness')
-elif 25 > bmi > 29.9:
+elif 25 > bmi < 29.9:
     print('Normal')
-elif 30 > bmi > 34.9:
+elif 30 > bmi < 34.9:
     print('Overweight')
-elif 35 > bmi > 40:
+elif 35 > bmi < 40:
     print('Obese Class I')
 elif 40 > bmi < 49.9:
     print('Obese Class II')
