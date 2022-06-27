@@ -15,7 +15,7 @@ print('Your BMI is: %4f' % bmi)
 
 if bmi < 16.9:
     print('Severe Thinness')
-elif 17 > bmi < 18.5:
+elif 17 > bmi < 18.4:
     print('Moderate Thinness')
 elif 18.5 > bmi < 24.9:
     print('Mild Thinness')
