@@ -8,3 +8,11 @@ age = df["Age"]
 kilo = df['Kilograms']
 bmi = df['BMI'] = df['Kilograms'] / ((df['Centimeters'] / 100) ** 2)
 print(bmi)
+input_list = sorted(df['BMI'], reverse=False)
+print(input_list)
+severeThinness = [0]
+moderateThinness = input_list[:2]
+print(moderateThinness)
+mildThinness = input_list[3:37]
+print(mildThinness)
+
