@@ -15,4 +15,7 @@ moderateThinness = input_list[:2]
 print(moderateThinness)
 mildThinness = input_list[3:37]
 print(mildThinness)
-
+normal = input_list[38:66]
+print(normal)
+overweight = input_list[67:58]
+print(overweight)
