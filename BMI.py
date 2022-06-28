@@ -23,7 +23,7 @@ elif 25 > bmi < 29.9:
     print('Normal')
 elif 30 > bmi < 34.9:
     print('Overweight')
-elif 35 > bmi < 40:
+elif 35 > bmi < 39.9:
     print('Obese Class I')
 elif 40 > bmi < 49.9:
     print('Obese Class II')
