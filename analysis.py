@@ -11,8 +11,9 @@ print(bmi)
 input_list = sorted(df['BMI'], reverse=False)
 print(input_list)
 severeThinness = [0]
+
 moderateThinness = input_list[:2]
-print(moderateThinness)
+print(len(moderateThinness), moderateThinness)
 mildThinness = input_list[3:37]
 print(len(mildThinness), mildThinness)
 normal = input_list[38:66]
