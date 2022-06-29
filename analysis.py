@@ -21,4 +21,5 @@ overweight = input_list[67:84]
 print(overweight)
 obeseClass_I = input_list[85:96]
 print(obeseClass_I)
-
+obeseClass_II = input_list[97:100]
+print(obeseClass_II)
