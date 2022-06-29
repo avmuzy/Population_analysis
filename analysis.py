@@ -14,12 +14,13 @@ severeThinness = [0]
 moderateThinness = input_list[:2]
 print(moderateThinness)
 mildThinness = input_list[3:37]
-print(mildThinness)
+print(len(mildThinness), mildThinness)
 normal = input_list[38:66]
-print(normal)
+print(len(normal), normal)
 overweight = input_list[67:84]
-print(overweight)
+print(len(overweight), overweight)
 obeseClass_I = input_list[85:96]
-print(obeseClass_I)
-obeseClass_II = input_list[97:100]
-print(obeseClass_II)
+print(len(obeseClass_I), obeseClass_I)
+obeseClass_II = input_list[97:99]
+print(len(obeseClass_II), obeseClass_II)
+
