@@ -8,6 +8,9 @@ age = df["Age"]
 kilo = df['Kilograms']
 bmi = df['BMI'] = df['Kilograms'] / ((df['Centimeters'] / 100) ** 2)
 print(bmi)
+
+# manual slicing
+'''
 input_list = sorted(df['BMI'], reverse=False)
 print(input_list)
 severeThinness = []
@@ -23,5 +26,10 @@ print(len(overweight), overweight)
 obeseClass_I = input_list[85:96]
 print(len(obeseClass_I), obeseClass_I)
 obeseClass_II = input_list[97:99]
-print(len(obeseClass_II), obeseClass_II)
+print(len(obeseClass_II), obeseClass_II)'''
 
+# using filter and lambda functions
+print(list(filter(lambda b: b < 16.9, bmi)))
+print(list(filter(lambda b: 17 < b < 18.4, bmi)))
+print(list(filter(lambda b: 18.5 < b < 24.9, bmi)))
+print(list(filter(lambda b: 25 < b < 29.9, bmi)))
