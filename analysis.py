@@ -29,11 +29,18 @@ obeseClass_II = input_list[97:99]
 print(len(obeseClass_II), obeseClass_II)'''
 
 # using filter and lambda functions
-print(list(filter(lambda b: b < 16.9, bmi)))
+'''print(list(filter(lambda b: b < 16.9, bmi)))
 print(list(filter(lambda b: 17 < b < 18.4, bmi)))
 print(list(filter(lambda b: 18.5 < b < 24.9, bmi)))
 print(list(filter(lambda b: 25 < b < 29.9, bmi)))
 print(list(filter(lambda b: 30 < b < 34.9, bmi)))
 print((list(filter(lambda b: 35 < b < 39.9, bmi))))
 print((list(filter(lambda b: 40 < b < 49.9, bmi))))
-print((list(filter(lambda b: b > 50, bmi))))
+print((list(filter(lambda b: b > 50, bmi))))'''
+
+# nem variables
+severeThinness = (list(filter(lambda b: b < 16.9, bmi)))
+moderateThinness = (list(filter(lambda b: 17 < b < 18.4, bmi)))
+mildThinness = (list(filter(lambda b: 18.5 < b < 24.9, bmi)))
+normal = (list(filter(lambda b: 25 < b < 29.9, bmi)))
+
