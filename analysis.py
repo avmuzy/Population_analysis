@@ -52,4 +52,11 @@ print('Severe Thinness:  ', len(severeThinness), severeThinness)
 print('Moderate Thinness:', len(moderateThinness), moderateThinness)
 print('Mild Thinness:   ', len(mildThinness), mildThinness)
 print('Normal:          ', len(normal), normal)
+print('Overweight:      ', len(overweight), overweight)
+print('Obese Class I:   ', len(obeseClassI), obeseClassI)
+print('Obese Class II:  ', len(obeseClassII), obeseClassII)
+print('Obese Class III: ', len(obeseClassIII), obeseClassIII)
+print(len(severeThinness), len(moderateThinness), len(mildThinness), len(normal), len(overweight),
+      len(obeseClassI), len(obeseClassII), len(obeseClassIII))
+
 
