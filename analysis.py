@@ -63,3 +63,8 @@ bmiNames = ['Severe Thinness', 'Moderate Thinness', 'Mild Thinness', 'Normal', '
             'Obese Clas II', 'Obese Class III']
 bmirange = [0, 2, 32, 29, 18, 11, 3]
 
+# pie plot
+fig = plt.figure(figsize=(10, 7))
+plt.pie(bmirange, labels=bmiNames)
+plt.show()
+
