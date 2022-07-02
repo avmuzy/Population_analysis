@@ -35,3 +35,15 @@ overweight = (list(filter(lambda b: 30 < b < 34.9, bmi)))
 obeseClassI = (list(filter(lambda b: 35 < b < 39.9, bmi)))
 obeseClassII = (list(filter(lambda b: 40 < b < 49.9, bmi)))
 obeseClassIII = (list(filter(lambda b: b > 50, bmi)))
+
+# variables length
+print('Severe Thinness:  ', len(severeThinness), severeThinness)
+print('Moderate Thinness:', len(moderateThinness), moderateThinness)
+print('Mild Thinness:   ', len(mildThinness), mildThinness)
+print('Normal:          ', len(normal), normal)
+print('Overweight:      ', len(overweight), overweight)
+print('Obese Class I:   ', len(obeseClassI), obeseClassI)
+print('Obese Class II:  ', len(obeseClassII), obeseClassII)
+print('Obese Class III: ', len(obeseClassIII), obeseClassIII)
+print(len(severeThinness), len(moderateThinness), len(mildThinness), len(normal), len(overweight),
+      len(obeseClassI), len(obeseClassII), len(obeseClassIII))
