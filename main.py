@@ -47,3 +47,7 @@ print('Obese Class II:  ', len(obeseClassII), obeseClassII)
 print('Obese Class III: ', len(obeseClassIII), obeseClassIII)
 print(len(severeThinness), len(moderateThinness), len(mildThinness), len(normal), len(overweight),
       len(obeseClassI), len(obeseClassII), len(obeseClassIII))
+
+# data for a pie plot
+bmiNames = ['Severe Thinness', 'Moderate Thinness', 'Mild Thinness', 'Normal', 'Obese Class I',
+            'Obese Clas II', 'Obese Class III']
