@@ -51,8 +51,8 @@ print(len(severeThinness), len(moderateThinness), len(mildThinness), len(normal)
 # data for a pie plot
 bmiNames = ['Severe Thinness', 'Moderate Thinness', 'Mild Thinness', 'Normal', 'Overweight', 'Obese Class I',
             'Obese Clas II', 'Obese Class III']
-bmirange = len(severeThinness), len(moderateThinness), len(mildThinness), len(normal), len(overweight),
-len(obeseClassI), len(obeseClassII), len(obeseClassIII)
+bmirange = [len(severeThinness), len(moderateThinness), len(mildThinness), len(normal), len(overweight),
+len(obeseClassI), len(obeseClassII), len(obeseClassIII)]
 
 # pie plot
 fig = plt.figure(figsize=(10, 7))
