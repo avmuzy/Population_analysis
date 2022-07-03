@@ -18,3 +18,10 @@ adults = list(filter(lambda a: 25 <= a <= 64, age))
 print(len(adults), adults)
 senior = list(filter(lambda a: a >= 65, age))
 print(len(senior), senior)
+ageGroup = [0, 481, 2960, 1559]
+ageDefinition = ['Children', 'Youth', 'Adult', 'Senior']
+
+# pie plot
+fig = plt.figure(figsize=(10, 7))
+plt.pie(ageGroup, labels=ageDefinition)
+plt.show()
