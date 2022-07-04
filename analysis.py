@@ -71,4 +71,6 @@ plt.show()
 # gender proportion
 gender = df['Gender']
 female = (list(filter(lambda a: a == 'female', gender)))
-print(len(female))
+print('Female', len(female), '%')
+male = list(filter(lambda a: a == 'male', gender))
+print('Male', len(male), '%')
