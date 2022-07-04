@@ -68,3 +68,7 @@ fig = plt.figure(figsize=(10, 7))
 plt.pie(bmirange, labels=bmiNames)
 plt.show()
 
+# gender proportion
+gender = df['Gender']
+female = (list(filter(lambda a: a == 'female', gender)))
+print(len(female))
