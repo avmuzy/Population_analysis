@@ -2,7 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import statistics
 from functools import reduce
-
-x = pd.read_csv('/home/avms/PycharmProjects/Population_analysis/new_data_base.csv')
+# reading csv file
+x = pd.read_csv('/home/avms/data_base.csv')
 df = pd.DataFrame(x)
-print(x)
+# setting target column
+stateFull = df['StateFull']
+
