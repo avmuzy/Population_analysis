@@ -38,3 +38,9 @@ sc = list(filter(lambda b: b == 'Santa Catarina', stateFull))
 sp = list(filter(lambda b: b == 'São Paulo', stateFull))
 se = list(filter(lambda b: b == 'Sergipe', stateFull))
 to = list(filter(lambda b: b == 'Tocantins', stateFull))
+
+# states length
+dist = [len(ac), len(al), len(ap), len(am), len(ba), len(ce),
+        len(df), len(es), len(go), len(ma), len(mt), len(ms), len(mg), len(pa), len(pb), len(pr), len(pe),
+        len(pi), len(rj), len(rn), len(rs), len(ro), len(rr), len(sc), len(sp), len(se), len(to)]
+print(dist)
