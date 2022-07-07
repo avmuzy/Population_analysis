@@ -49,3 +49,11 @@ statesNames = ['Acre', 'Alagoas', 'Amapá', 'Amazonas', 'Bahia', 'Ceará', 'Dist
                'Minas Gerais', 'Pará', 'Paraíba', 'Paraná', 'Pernambuco', 'Piauí', 'Rio de Janeiro',
                'Rio Grande do Norte', 'Rio Grande do Sul', 'Rondônia', 'Roraima', 'Santa Catarina',
                'São Paulo', 'Sergipe', 'Tocantins']
+
+print(len(stateDist), len(statesNames))
+
+# pie pyplot
+
+fig = plt.figure(figsize=(10, 7))
+plt.pie(stateDist, labels=statesNames)
+plt.show()
