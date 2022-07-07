@@ -40,7 +40,12 @@ se = list(filter(lambda b: b == 'Sergipe', stateFull))
 to = list(filter(lambda b: b == 'Tocantins', stateFull))
 
 # states length
-dist = [len(ac), len(al), len(ap), len(am), len(ba), len(ce),
-        len(df), len(es), len(go), len(ma), len(mt), len(ms), len(mg), len(pa), len(pb), len(pr), len(pe),
-        len(pi), len(rj), len(rn), len(rs), len(ro), len(rr), len(sc), len(sp), len(se), len(to)]
-print(dist)
+stateDist = [len(ac), len(al), len(ap), len(am), len(ba), len(ce),
+             len(df), len(es), len(go), len(ma), len(mt), len(ms), len(mg), len(pa), len(pb), len(pr), len(pe),
+             len(pi), len(rj), len(rn), len(rs), len(ro), len(rr), len(sc), len(sp), len(se), len(to)]
+
+statesNames = ['Acre', 'Alagoas', 'Amapá', 'Amazonas', 'Bahia', 'Ceará', 'Distrito Federal',
+               'Espírito Santo', 'Goiás', 'Maranhão', 'Mato Grosso', 'Mato Grosso do Sul',
+               'Minas Gerais', 'Pará', 'Paraíba', 'Paraná', 'Pernambuco', 'Piauí', 'Rio de Janeiro',
+               'Rio Grande do Norte', 'Rio Grande do Sul', 'Rondônia', 'Roraima', 'Santa Catarina',
+               'São Paulo', 'Sergipe', 'Tocantins']
